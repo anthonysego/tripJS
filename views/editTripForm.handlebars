@@ -1,0 +1,37 @@
+
+<h3 style="padding: 1em;">Edit Trip Data</h3>
+<p>Trip Date: {{tripData.date}}</p>
+
+<form method='post' action='/editTripForm' style="padding: 2em;">
+
+<p>City: {{tripData.city}} </p> 
+<input type='hidden' name='date' value={{tripData.date}}>
+<p>Miles: {{tripData.miles}}    <button type='button' id='editMiles'> Edit </button>
+		<span id='milesInput' style="display: none"> <input name='newMiles' size='6'> Enter new value</span>
+</p> 
+
+<p>Gallons: {{tripData.gallons}}    <button type='button' id='editGallons'> Edit </button>
+		<span id='gallonsInput' style="display: none"> <input name='newGallons' size='6'> Enter new value</span>
+</p>
+
+<p><input type='submit'></p>
+</form>
+
+<script>
+
+document.getElementById('editMiles').onclick = function() {
+   if(document.getElementById('milesInput').style.display=='none')
+       document.getElementById('milesInput').style.display='inline'
+	else
+		document.getElementById('milesInput').style.display='none'
+};
+
+
+document.getElementById('editGallons').onclick = function() {
+   if(document.getElementById('gallonsInput').style.display=='none')
+       document.getElementById('gallonsInput').style.display='inline'
+	else
+		document.getElementById('gallonsInput').style.display='none'
+};
+
+</script>

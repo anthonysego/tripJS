@@ -1,0 +1,12 @@
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b29"},"date":"2017-02-06","city":"chicago","miles":650,"gallons":26.1}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b2a"},"date":"2017-03-01","city":"cincinnati","miles":220,"gallons":7.9}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b2b"},"date":"2017-03-14","city":"nashville","miles":399,"gallons":14.1}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b2c"},"date":"2017-04-04","city":"nashville","miles":377,"gallons":11.4}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b2d"},"date":"2017-04-14","city":"chicago","miles":672,"gallons":22}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b2e"},"date":"2017-05-07","city":"indianapolis","miles":254,"gallons":8.8}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b2f"},"date":"2017-05-14","city":"chicago","miles":677,"gallons":21.2}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b30"},"date":"2017-06-07","city":"cincinnati","miles":243,"gallons":9.1}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b31"},"date":"2017-06-14","city":"nashville","miles":391,"gallons":13.3}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b32"},"date":"2017-07-02","city":"chicago","miles":695,"gallons":19.9}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b33"},"date":"2017-07-14","city":"indianapolis","miles":246,"gallons":8.1}
+{"_id":{"$oid":"5bd7335b802c8e1cd8aa7b34"},"date":"2018-01-01","city":"cincinnati","miles":230,"gallons":8.5}

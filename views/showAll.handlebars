@@ -1,0 +1,21 @@
+<h2 style="padding: 1em;">All Trip Data</h2>
+
+<table class="table">
+<tr>
+	<th scope="col">Date</th>
+	<th scope="col">City</th>
+	<th scope="col">Miles</th>
+	<th scope="col">Gallons</th>
+	<th scope="col">Miles Per Gallon</th></tr>
+{{#each trips}}
+   <tr>
+     <td scope="row">{{date}}</td>
+     <td scope="row">{{city}}</td>
+     <td scope="row">{{miles}}</td>
+     <td scope="row">{{gallons}}</td>
+     <td scope="row">{{mpg}}</td>
+     <td scope="row"> <a href="/editTripForm?date={{date}}"> Edit </a> </td>
+   </tr>
+{{/each}}
+</table>
+<br>
